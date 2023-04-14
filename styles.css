@@ -1,0 +1,108 @@
+html {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+body {
+    background: #FFF8F0;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    color: #55206D;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: "League Spartan", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #190D37;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-family: "League Spartan", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #000000;
+    text-align: center;
+    padding-left: 370px;
+    padding-right: 370px;
+}
+
+.bigtext {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #331E6A;
+}
+
+#hero-section {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#hero-text {
+    margin: auto 0;
+    width: 50%;
+    padding: 32px 20px 32px 20px;
+    float: right;
+}
+
+#hero-image-wrapper {
+    width: 50%;
+}
+
+#hero-image {
+    width: 100%;
+    margin: auto 0;
+    border-radius: 0px 0px 200px 200px;
+}
+
+#smalltext {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #000000;
+    margin-top: 32px;
+}
+
+#hi-and-name {
+    margin-top: 52px;
+    margin-bottom: 10px;
+}
+
+#contact-button {
+    font-family: "Inter", sans-serif;
+    color: #FFFFFF;
+    height: 44px;
+    width: 138px;
+    border-radius: 4px;
+    background: #2F2F2F;
+    margin-top: 32px;
+}
+
+#what-i-do-section {
+    text-align: center;  
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+#project-boxes{
+    display: flex;
+}
+
+.project-box {
+    width: 33.33%;
+}
+.overtitile {
+    font-family: "poppins", sans-serif;
+}
