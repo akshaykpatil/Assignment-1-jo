@@ -1,6 +1,5 @@
 html {
     font-size: 16px;
-    margin-top: 10px;
 }
 
 body {
@@ -15,7 +14,7 @@ body {
 
 h1 {
     font-family: "League Spartan", sans-serif;
-    font-size: 48px;
+    font-size: 50px;
     font-weight: 700;
     line-height: 50px;
     color: #190D37;
@@ -61,28 +60,21 @@ h2 {
 
 #hero-section {
     display: flex;
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 0;
+    height: 600px;
 }
 
 #hero-text {
-    margin: auto 0;
-    width: 50%;
-    padding: 32px 20px 32px 20px;
+    width: 720px;
     float: right;
+    margin-left: 190px;
 }
 
 #hero-image-wrapper {
-    width: 50%;
+    background-image: url(hero_image.png);
+    width: 720px;
+    object-fit: cover;
+   
 }
-
-#hero-image {
-    width: 100%;
-    margin: auto 0;
-    border-radius: 0px 0px 200px 200px;
-}
-
 #smalltext {
     font-family: "Roboto", sans-serif;
     font-size: 12px;
@@ -119,7 +111,7 @@ h2 {
     color: #2858FF;
 }
 
-#centre-projects{
+#centre-projects {
     margin-top: 98px;
 }
 
